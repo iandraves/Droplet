@@ -1,0 +1,30 @@
+/* Setting page height */
+html {
+    height: 80%;
+}
+
+/* Remove contenteditable outline */
+[contenteditable] {
+    outline: 0px solid transparent;
+}
+
+/* Make text non-selectable */
+.noselect {
+    /* iOS Safari */
+    -webkit-touch-callout: none;
+
+    /* Safari */
+    -webkit-user-select: none;
+
+    /* Konqueror HTML */
+    -khtml-user-select: none;
+
+    /* Old versions of Firefox */
+    -moz-user-select: none;
+
+    /* Internet Explorer/Edge */
+    -ms-user-select: none;
+
+    /* General */
+    user-select: none;
+}
